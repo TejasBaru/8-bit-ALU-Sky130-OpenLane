@@ -1,0 +1,24 @@
+
+{
+    "DESIGN_NAME"   : "alu" ,
+    "VERILOG_FILES" : "dir::src/rtl/alu.v" ,
+   
+    "QUIT_ON_VERILATOR_WARNINGS": false,
+    "RUN_LINTER": false ,
+
+    "CLOCK_PORT"    : "clk" ,
+    "CLOCK_PERIOD"  : 10.0 ,
+
+    "IO_DELAY_CONSTRAINT"         : 2.0 ,
+    
+    "MAX_TRANSITION_CONSTRAINT"   : 1.5 ,
+    "MAX_FANOUT_CONSTRAINT"       : 4 ,
+    
+    "FP_CORE_UTIL"      : 45 ,
+    "FP_ASPECT_RATIO"   : 1 ,
+
+    "PL_TARGET_DENSITY_PCT" : 50 ,
+
+    "STD_CELL_LIBRARY"  : "sky130_fd_sc_hd"
+
+}
